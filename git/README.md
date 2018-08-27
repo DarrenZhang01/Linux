@@ -48,3 +48,31 @@ git merge upstream/<branch>
 ```
 git push
 ```
+* <h3> Look up the current branch </h3>
+```
+git branch
+```
+* <h3> Create a new branch </h3>
+```
+git branch <branch>
+```
+* <h3> Check out to another branch </h3>
+```
+git checkout <branch>
+```
+* <h3> Create and switch to a new branch at the same time </h3>
+```
+git checkout -b <branch>
+```
+* <h3> Stash the changes into the stack in order to switch to another branch </h3>
+```
+git stash
+```
+* <h3> Apply the latest stash into the current branch </h3>
+```
+git stash apply
+```
+* <h3> List all the stashed changes </h3>
+```
+git stash list
+```
