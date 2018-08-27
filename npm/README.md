@@ -1,22 +1,22 @@
 # npm - Node Package Manager
 ***
-### Check the version of the current npm
+* <h3>Check the version of the current npm</h3>
 ```
 npm -v
 ```
-### Install the latest version of npm
+* <h3>Install the latest version of npm</h3>
 ```
 (sudo) npm install npm@latest -g
 ```
-### build dependencies in a project Package with package.json
+* <h3>build dependencies in a project Package with package.json</h3>
 ```
 npm install
 ```
-### Install package locally
+* <h3>Install package locally</h3>
 ```
 npm install mocha
 ```
-### Install package globally
+* <h3>Install package globally</h3>
 ```
 (sudo) npm install express -g
 ```
