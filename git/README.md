@@ -6,27 +6,27 @@ git clone <url>
 ```
 * <h3> Add the new change/untracked files  </h3>
 ```
-git add *  // Add the change of the current folder
+git add *                                // Add the change of the current folder
 
-git add <file>  // Add a specific file
+git add <file>                           // Add a specific file
 
-git add .  // Add all changes in the repo
+git add .                                // Add all changes in the repo
 ```
 * <h3> Commit the changes </h3>
 ```
 git commit -m <commit message>
 
-git commit  // Add the commit message in an editor
+git commit                               // Add the commit message in an editor
 ```
 * <h3> Push the changes to the original repo </h3>
 ```
 git push origin <branch>
 
-git push // If the branch to be pushed is already set
+git push                            // If the branch to be pushed is already set
 ```
 * <h3> Pull the changes from the original repo </h3>
 ```
-git pull origin <branch> // e.g.: git pull origin master
+git pull origin <branch>            // e.g.: git pull origin master
 ```
 * <h3> Look up the current remote branch </h3>
 ```
@@ -75,4 +75,12 @@ git stash apply
 * <h3> List all the stashed changes </h3>
 ```
 git stash list
+```
+* <h3> Squash the lastest two commits into one </h3>
+```
+git reset --soft HEAD~2
+
+git commit
+
+git push
 ```
