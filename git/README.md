@@ -84,3 +84,8 @@ git commit
 
 git push
 ```
+
+* <h3> Reset Line Configuration </h3>
+```
+git config core.autocrlf true
+```
