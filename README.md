@@ -15,3 +15,13 @@ head -n file_a > file_b
 ```
 ls -l |grep "^-"|wc -l
 ```
+
+* <h3>Look up the disk space taken up by the current directory</h3>
+```
+du -h
+```
+
+* <h3>Look up number of lines of a file</h3>
+```
+wc -l <file name>
+```
