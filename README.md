@@ -10,3 +10,8 @@ Record some common-use Linux Command Line
 ```
 head -n file_a > file_b
 ```
+
+* <h3>Count the number of items under a directory</h3>
+```
+ls -l |grep "^-"|wc -l
+```
