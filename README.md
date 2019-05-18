@@ -25,3 +25,11 @@ du -h
 ```
 wc -l <file name>
 ```
+
+* <h3>linux screen commands</h3>
+```
+echo $STY  # look up the current screen
+screen     # start a screen
+screen -ls # list all the screens
+screen -S  # start screen with a name
+```
