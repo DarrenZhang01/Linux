@@ -33,3 +33,7 @@ screen     # start a screen
 screen -ls # list all the screens
 screen -S  # start screen with a name
 ```
+* <h3>Install packages under a specific version of python</h3>
+```
+python3.7 -m pip install ..
+```
