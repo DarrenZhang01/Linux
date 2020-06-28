@@ -37,3 +37,7 @@ screen -S  # start screen with a name
 ```
 python3.7 -m pip install ..
 ```
+* <h3>Change the command `python3` from the original default version to `python3.x`</h3>
+```
+alias python3=python3.x
+```
